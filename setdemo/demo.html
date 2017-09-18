@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="swiper/css/swiper.min.css" />
+		<link rel="stylesheet" href="swiper/css/animate.min.css" />
+		<script src="swiper/js/swiper.min.js"></script>
+		<script src="swiper/js/swiper.animate1.0.2.min.js"></script>
+		<script src="jquery-1.11.0.js"></script>
+		<style>
+			html,body{height: 100%;}
+			body{display: flex;}
+			.swiper-container{flex: 1; background: url(img/bg.jpg);}
+			.swiper-container .img{position:absolute;top: 0;left: 0;right:0;bottom: 0;margin: auto; z-index: -1;}
+			p{font-size: 1.5rem;font-family: '方正舒体';}
+			.h51 p:nth-of-type(1){width: 2rem;font-size: 1.5rem;position: absolute;right: 4rem;top: 1rem;}
+			.h51 p:nth-of-type(2){font-size: 1.5rem;width: 2rem;position: absolute;top: 10rem;right: 1rem;}
+			.h51 .h1-1{position: absolute;right: 6rem;top: 3rem;}
+		
+		
+			.h52 p:nth-of-type(1){margin:7rem 0 0 3.5rem ;width: 2rem;}
+			.h52 p:nth-of-type(2){width: 2rem;margin-left: 1.1rem;position:relative;bottom: 3rem;}
+			.h52 .h2-1{position: absolute;top: 0rem;right: 1rem;}
+			
+		
+		
+		
+			.h53 p:nth-of-type(1){margin: 3rem 0 0 3rem;}
+			.h53 p:nth-of-type(2){margin-left:4rem ;}
+			.h53 img{top:2rem}
+			
+			.h54 p{margin-left: 2rem;}
+			.h54 #h4-1{position: absolute;left: 0;top: 0;bottom: 0;margin: auto;}
+			
+			
+			
+			.h55 p{margin: 2rem 0 0 1.5rem;}
+			.h55 .h5-1{position: absolute;bottom: 3rem;left: 2rem;}
+			.h55 .h5-2{position: absolute;bottom: 3rem;right: 2rem;}
+			
+			.h56 p{position: absolute;top: 2rem;right: 3rem;width: 2rem;}
+			.h56 img{right: 4rem;}
+			.h56 .h6-1{position: absolute;right: 7rem;top: 3rem;width: 2.5rem;}
+			.h56 .h6-2{position: absolute;right: 4rem;bottom: 4.5rem;width: 2.7rem;}
+			
+			.h57 .img{top: 5rem;}
+			.h57 .h7-1{position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;}
+			.h57 .h7-3{position: absolute;bottom: 3rem;right: 1.3rem;}
+			
+			.music{width: 2rem;height: 2rem;position: fixed;top: 2rem;right: 2rem;z-index: 999;border-radius: 100%;overflow: hidden;}
+			.music img{width: 100%;height: 100%;animation: myfirst 3s linear infinite;}
+			
+			@keyframes myfirst{
+				from{transform: rotate(0deg);}
+				to{transform: rotate(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide h51">
+	        	
+	        	<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">一叶便知秋</h1>
+	       		<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.9s">最美是陪伴</p>
+	       		<img class="ani h1-1" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.9s" swiper-animate-delay="0.9s" src="img/h51-1.png" />
+	       		<img class="img" src="img/h51.png" />
+	        </div>
+	        <div class="swiper-slide h52">
+	        	
+	        	<p  class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">偶尔你也会孤单</p>
+	        	<p  class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">失落</p>
+	        	<img class="img" src="img/h52.png" />
+	        	<img class="ani h2-1" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s" src="img/h52-1.png" />
+	        </div>
+	        <div class="swiper-slide h53">
+	        	
+	        	
+	        	<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">因为你还要独自走过</p>
+	        	<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">很长的路......</p>
+	        	<img class="img" src="img/h53.png" />
+	        </div>
+	        
+	        <div class="swiper-slide h54">
+	        	
+	        	<p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">可 能 是 你 藏 得  太 深</p>
+	        	<p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.7s">他 还 在寻 找 你 的 路 上</p>
+	        	<p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1s">在他 还 没 有</p>
+	        	<p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">到 来 之 前</p>
+	        	<img class="ani img" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.7s" src="img/h54.png" />
+	     		<img class="ani h4-1" id="h4-1" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s" src="img/h54-1.png" />
+	        </div>
+	        
+	        <div class="swiper-slide h55">
+	        	<p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.9s">愿  你  能  洒  脱</p>
+	        	<img class="ani img" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.5s" src="img/h55.png" />
+	       		<img class="ani h5-1" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.7s" swiper-animate-delay="1.7s" src="img/h55-1.png" />
+	     		<img class="ani h5-2" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.9s" src="img/h55-2.png"/>
+	        </div>
+	        
+	        <div class="swiper-slide h56">
+	        	<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="1.5s">愿 你 能 优 雅</p>
+	        	<img class="ani img" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.4s" src="img/h56.png" />
+	     		<img class="ani h6-1" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="1s" src="img/h56-1.png" />
+	     		<img class="ani h6-2" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s" src="img/h56-2.png" />
+	        </div>
+	        <div class="swiper-slide h57">
+	        	
+	        	<p class="ani" swiper-animate-effect="swing" swiper-animate-duration="0.7s" swiper-animate-delay="1.9s">愿 你 笑 容 温 暖</p>
+	        	<img class="ani h7-1" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.3s" src="img/h57-1.png" />	
+	        	<img class="ani img" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="1.5s" src="img/h57.png" />
+	       		<img class="ani h7-3" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="0.7s" swiper-animate-delay="1.5s" src="img/h57-3.png"/>
+	        </div>
+	    </div>
+	    <!-- 如果需要分页器 -->
+	    <!--<div class="swiper-pagination"></div>-->
+	    
+	    <!-- 如果需要导航按钮 -->
+	    <!--<div class="swiper-button-prev"></div>-->
+	    <!--<div class="swiper-button-next"></div>-->
+	    
+	    <!-- 如果需要滚动条 -->
+	    <div class="swiper-scrollbar"></div>
+	</div>
+	<div class="music"><img src="img/music.jpg"/></div>
+	<audio id='audio' src="尹幸 - 想太多（Cover 李玖哲）.mp3" autoplay="" loop=""></audio>
+	</body>
+	<script>        
+  	var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    loop: true,
+    
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // 如果需要滚动条
+//  scrollbar: '.swiper-scrollbar',
+    
+    
+    
+    	onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+   		 swiperAnimateCache(swiper); //隐藏动画元素 
+   		 swiperAnimate(swiper); //初始化完成开始动画
+  		}, 
+ 		 onSlideChangeEnd: function(swiper){ 
+    	swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+ 		 }
+  	})        
+  	
+  	 var oAudio=document.getElementById('audio')
+		  $('.music').click(function(){
+		  
+		  	if(oAudio.paused){
+		  		console.log('1111')
+		  		oAudio.play();
+		  		$('.music').find('img').css({animationPlayState:'running'})
+		  	}else{
+		  		console.log('mmm')
+		  		oAudio.pause();
+		  		$('.music').find('img').css({animationPlayState:'paused'})
+		  	}
+		  })
+  	
+  	
+  	
+//	(function(doc,win){
+//			var docEl = doc.documentElement,resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+//			recalc = function(){
+//				var clientWidth = docEl.clientWidth;
+//				if(!clientWidth) return;
+//				if(clientWidth>=640){
+//					docEl.style.fontSize = '100px';
+//				}
+//				else{
+//					docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+//				}
+//			};
+//			if (!doc.addEventListener) return;
+//	        win.addEventListener(resizeEvt, recalc, false);
+//	        doc.addEventListener('DOMContentLoaded', recalc, false);
+//		})(document,window);
+  </script>
+</body>
+</html>
